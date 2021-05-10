@@ -1,0 +1,34 @@
+{
+  "name": "healthychain",
+  "version": "1.0.0",
+  "description": "Ethereum-based health record management system",
+  "main": "client/src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node client/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opensystemsco/HealthyChain.git"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "solidity",
+    "web3.js",
+    "react"
+  ],
+  "author": "Shahrukh Malik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/opensystemsco/HealthyChain/issues"
+  },
+  "homepage": "https://github.com/opensystemsco/HealthyChain#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "truffle": "^5.3.5"
+  }
+}
